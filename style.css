@@ -1,0 +1,279 @@
+body {
+	background: black;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px 0;
+
+}
+
+.header-content {
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.home{
+	color: #e0b720;
+	text-decoration: underline;
+
+}
+.logo{
+	color: white;
+	font-size: 150%;
+	margin-left: 1%;
+	text-decoration: none;
+}
+.logo:hover{
+	transform: scale(1.1);
+	text-shadow: 2px 0px 5px white;
+}
+nav ul {
+    list-style: none; 
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav li:hover{
+	transform: scale(1.1);
+}
+span {
+	color: #e0b720;
+}
+section{
+	min-height: 80vh;
+	padding: 10rem 9% 10rem;
+
+}
+
+.all {
+	background: url(BJT.png) center;
+	background-size: cover;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+
+}
+
+.coo {
+	color: white;
+	margin-top: 0;
+	font-size: 300%;
+}
+.coo:hover{
+	font-size: 300%;
+    color: antiquewhite;
+}
+.parag {
+	color: white;
+    margin: 0 0 8%;
+}
+.order {
+	background: #e0b720;
+    padding: 2%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+.order:hover {
+    background: rgba(0, 0, 0, 0.6);;
+    padding: 2.5%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transform: scale(1.5);
+    border: 3px solid #e0b720;
+
+}
+.Home {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.About{
+	color: white;
+	padding: 3%;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	padding-top: 30%;
+}
+.headin{
+	padding: 3%;
+    color: white;
+}
+.parag2 {
+	color: white;
+	width: 50%;
+	text-align: center;
+    padding: 0 25%;
+}
+.read {
+	background: #e0b720;
+    padding: 1%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+.read:hover{
+	background: black;
+    padding: 1.2%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transform: scale(1.5);
+    border: 3px solid #e0b720;
+}
+.footer {
+	background: url(bjt2.jpg) center;
+	width: 100%;
+	padding: 0%;
+	background-size: 100%;
+}
+.h1-tools{
+	color: white;
+	text-align: center;
+    font-size: 300%;
+    padding: 0%;
+    margin: 0;
+}
+.heading:hover{
+     transform: scale(1.2);
+     color: antiquewhite;
+}
+
+.TOOLS{
+	color: white;
+    align-items: center;
+	width: 100%;
+	text-align: center;
+	padding: 5%;
+	display: flex;
+	margin: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+ image{
+ 	width: auto;
+ }
+.h1-tool{
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+.col-1 {
+	border: 5px white solid;
+	padding: 20px;
+	margin: 20px;
+	width: 100%;
+}
+.col-2 {
+	border: 5px white solid;
+	padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
+.col-3 {
+	margin: 20px;
+	border: 5px white solid;
+	padding: 20px;
+	width: 100%;
+}
+.or {
+	border-radius: 20px;
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 6px;
+}
+
+.or:hover {
+	transform: scale(2);
+	background: wheat;
+    color: black;
+}
+.back{
+	color: white;
+	text-align: center;
+}
+.back:hover{
+	color: wheat;
+}
+.Name{
+    background: #e0b720;
+    border: none;
+    color: black;
+    border-radius: 2%;
+    width: 35%;
+    padding: 1%;
+    margin: 0.5%;
+
+
+}
+.Email{
+	background: #e0b720;
+    border: none;
+    color: black;
+    border-radius: 2%;
+    width: 35%;
+    padding: 1%;
+    margin: 0.5%;
+}
+.txt{
+    background: #e0b720;
+    border: none;
+    color: black;
+    border-radius: 2%;
+    width: 35%;
+    padding: 1%;
+    margin: 0.5%;
+}
+.sub {
+	border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 6px;
+    background: black;
+}
+
+.sub:hover {
+	transform: scale(1.1);
+	background: wheat;
+    color: black;
+}
+.res {
+	border-radius: 20px;
+    color: white;
+    background: black;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 6px;
+}
+
+.res:hover {
+	transform: scale(1.1);
+	background: wheat;
+    color: black;
+}
+.Contact {
+	align-items: center;
+    text-align: center;
+}
